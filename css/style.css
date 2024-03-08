@@ -82,6 +82,24 @@ img{
     
 }
 
+@media (max-width:410px){
+    .num{
+        display: block;
+    }
+    .link-custom::after{
+        display: none;
+    }
+    .d-n{
+        display: none;
+    }
+    .d-no{
+        display: none;
+    }
+}
+
+.f-large{
+    font-size: 2rem;
+}
 
 .btn{
     padding :12px 28px;
@@ -133,6 +151,17 @@ img{
     font-style: 32px;
     background-color: var(--color-brand);
     color: var(--color-base);
+}
+
+/* about */
+
+.img-set{
+    width: 50px;
+    height: 50px;
+}
+
+.img-set:hover{
+    transform: scale(1.2);
 }
 
 
