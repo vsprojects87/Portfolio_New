@@ -30,7 +30,7 @@ a:hover{
     color: var(--color-brand);
 }
 img{
-    width: 100%;
+    width: 90%;
 }
 
 .text-brand{
@@ -74,7 +74,7 @@ img{
         background-size: cover;
     }
     .navbar-brand img{
-        border: 6px solid var(--color-brand);
+        border: inset 1px solid none ;
     }
     #content-wrapper{
         padding-left: var(--sidebar-width);
@@ -162,6 +162,7 @@ img{
 
 .img-set:hover{
     transform: scale(1.2);
+    transition: ease-in-out 0.5s;
 }
 
 
